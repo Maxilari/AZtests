@@ -35,14 +35,6 @@
         ]
       }
     },
-     {
-        "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
-        "contentVersion": "1.0.0.0",
-        "apiVersion": "2024-07-01",
-        "parameters": {
-
-        },
-        "resources": [
         {
             "type": "Microsoft.Batch/batchAccounts",
             "apiVersion": "2024-07-01",
@@ -56,9 +48,7 @@
                         "storageAccountId": "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName'))]"
                         }
                     }
-                }
-            ]
-        },
+                },
         {
       "type": "Microsoft.Batch/batchAccounts/pools",
       "apiVersion": "2024-07-01",
