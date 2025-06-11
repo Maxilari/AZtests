@@ -120,7 +120,7 @@
       },
       "dependsOn": [
         "[resourceId('Microsoft.Batch/batchAccounts', parameters('batchAccountName'))]",
-        "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('vnetName'), parameters('subnet1Name'))]"
+        "[resourceId('Microsoft.Network/virtualNetworks', parameters('vnetName'))]"
       ]
     }
   ]
