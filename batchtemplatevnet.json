@@ -5,6 +5,9 @@
 
     },
   "parameters": {
+        "storageAccountName": {
+          "type": "string"
+        },
         "batchAccountName": {
             "type": "string"
           },              
