@@ -5,7 +5,33 @@
 
     },
   "parameters": {
-
+        "batchAccountName": {
+            "type": "string"
+          },              
+        "vnetName": {
+          "type": "string"
+        },
+        "vnetAddressPrefix": {
+          "type": "string"
+        },
+        "subnet1Prefix": {
+          "type": "string"
+        },
+        "subnet1Name": {
+          "type": "string"
+        },
+        "subnet2Prefix": {
+          "type": "string"
+        },
+        "subnet2Name": {
+          "type": "string"
+        },
+        "poolName": {
+          "type": "string"
+        },
+        "vmSize": {
+          "type": "string"
+        }
   },
   "resources": [
     {
