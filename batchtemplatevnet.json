@@ -97,8 +97,8 @@
           "virtualMachineConfiguration": {
             "imageReference": {
               "publisher": "canonical",
-              "offer": "ubuntuserver",
-              "sku": "24.04-lts",
+              "offer": "ubuntu-24_04-lts",
+              "sku": "server",
               "version": "latest"
             },
             "nodeAgentSkuId": "batch.node.ubuntu 24.04"
